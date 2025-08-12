@@ -32,7 +32,7 @@
     "tailwindcss": "^4.1.11",
     "vite": "^7.1.2"
   },
-  "homepage": "https://votrepseudo.github.io/mon-portfolio",
+  "homepage": "https://rkeikiii-blip.github.io/mon-portfolio",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "eslint.config.js",
   "keywords": [],
