@@ -67,22 +67,22 @@ export default function Portfolio() {
 <aside className="w-full md:w-72 bg-gray-50 rounded-3xl p-6 shadow-sm flex-shrink-0 overflow-hidden">
   {/* Conteneur bannière - ratio 3:1 (3000x1000) */}
   <div className="relative aspect-[3/1] w-full -mx-6 -mt-6">
-    <img
-      src="r-Keiki-Banner-Hitori-X (1).png"
-      alt="Bannière rKeiki"
-      className="absolute inset-0 w-full h-full object-cover"
-      loading="lazy"
-    />
+<img
+  src={`${import.meta.env.BASE_URL}images/banner.png`}
+  alt="Bannière rKeiki"
+  className="absolute inset-0 w-full h-full object-cover"
+  loading="lazy"
+/>
 
   </div>
 
   {/* Avatar et infos */}
   <div className="relative -mt-16 flex flex-col items-center">
-    <img
-      src="gintoki-snow.gif"
-      alt="rKeiki"
-      className="w-24 h-24 rounded-full border-4 border-white shadow-lg object-cover"
-    />
+<img
+  src={`${import.meta.env.BASE_URL}images/avatar.gif`}
+  alt="rKeiki"
+  className="w-24 h-24 rounded-full border-4 border-white shadow-lg object-cover"
+/>
     <h3 className="mt-4 text-lg font-semibold">rKeiki</h3>
     <p className="text-xs text-gray-500">IGL • Développeur</p>
   </div>
