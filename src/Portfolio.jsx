@@ -68,7 +68,7 @@ export default function Portfolio() {
   {/* Conteneur bannière - ratio 3:1 (3000x1000) */}
   <div className="relative aspect-[3/1] w-full -mx-6 -mt-6">
 <img
-  src={`${import.meta.env.BASE_URL}images/banner.png`}
+  src={`${import.meta.env.BASE_URL}img/banner.png`}
   alt="Bannière rKeiki"
   className="absolute inset-0 w-full h-full object-cover"
   loading="lazy"
@@ -79,7 +79,7 @@ export default function Portfolio() {
   {/* Avatar et infos */}
   <div className="relative -mt-16 flex flex-col items-center">
 <img
-  src={`${import.meta.env.BASE_URL}images/avatar.gif`}
+  src={`${import.meta.env.BASE_URL}img/avatar.gif`}
   alt="rKeiki"
   className="w-24 h-24 rounded-full border-4 border-white shadow-lg object-cover"
 />
